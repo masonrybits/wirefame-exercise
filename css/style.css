@@ -1,0 +1,52 @@
+nav {
+  display: inline-block
+}
+
+header {
+  background-color:rgb(58, 58, 58);
+  height: 100px;
+  width: 1000px;
+}
+
+footer {
+  background-color:rgb(58, 58, 58);
+  height: 100px;
+  width: 1000px;
+}
+
+ul {
+  padding: 30px;
+  float: right;
+}
+
+li {
+  display: inline;
+  padding: 50px;
+  color: rgb(116, 114, 114);
+  font-size: 16px;
+}
+
+.p {
+  overflow: scroll;
+  float:right; 
+  height: 400px;
+  width: 480px;
+}
+
+p.hover {
+  background-color: yellow;
+
+}
+
+#img-container {
+  display: inline-block;
+  padding: 10px; /* if you want space between the images */
+}
+
+img {
+  padding: 10px;
+}
+
+.thirdrow {
+  display: inline-block;
+}
