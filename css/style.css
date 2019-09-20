@@ -29,13 +29,8 @@ li {
 .p {
   overflow: scroll;
   float:right; 
-  height: 400px;
+  height: 350px;
   width: 480px;
-}
-
-p.hover {
-  background-color: yellow;
-
 }
 
 #img-container {
@@ -48,5 +43,27 @@ img {
 }
 
 .thirdrow {
+  position: relative;
   display: inline-block;
+}
+
+#action {
+  position: absolute;
+  width: 160px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  float: right;
+  right: 33%;
+  top:88%;
+  transition: 0.35s;
+}
+#action:hover {
+  color: pink;
+  font-size: 16px;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
 }
